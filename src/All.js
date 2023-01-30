@@ -19,7 +19,7 @@ const Fetch = () => {
             <img src={val.image} alt=""  height={300}/>
             <p><b>Name</b>: {val.title}</p>
             <p> $ {val.price}</p>
-            <p>Rating {val.rating.rate} </p>
+            <p>Rating {val.rating.rate}</p>
 
           </div>
         })}
